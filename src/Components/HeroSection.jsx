@@ -26,7 +26,7 @@ const HeroSection = () => {
           </span>
         </h1>
         <p className="mt-6 text-lg max-w-4xl">
-        "Experience the warmth of a home away from home, where every guest becomes part of our family
+        Experience the warmth of a home away from home, where every guest becomes part of our family
         </p>
         <div className="flex justify-center mt-8">
           <a

@@ -9,11 +9,7 @@ const App = () => {
     <Navbar/>
     <div className="max-w-6xl mx-auto pt-20 px-6">
     <HeroSection/>
-    {/* <Gallery/>
-    <Aminities/>
-    <RoomsAndPrice/>
-    <Reviews/>
-    <Footer/> */}
+    
     </div>
     </>
   )
