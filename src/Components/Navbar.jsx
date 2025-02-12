@@ -22,12 +22,13 @@ const Navbar = () => {
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-12'>
                     {navItems.map((item,index)=>(
-                         <Link key={index} className='cursor-pointer' to={item.to} smooth={true} duration={500}>{item.label}</Link>
-                        // <a href={item.href}>{item.label}</a>
+                         <Link key={index} className="relative text-[15px] cursor-pointer to={item.to} smooth={true} duration-500
+                         after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-green-500 
+                         after:transition-all after:duration-300 hover:after:w-full" to={item.to} smooth={true} duration={500}>{item.label}</Link>
                     ))}
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
-                    <a className='py-2 bg-gradient-to-r from-green-500 to-green-800 rounded-md  px-3 ' href="https://wa.me/918923196771?text=Hello%20I%20am%20interested%20in%20booking%20your%20homestay.
+                    <a className='py-2 bg-gradient-to-r from-green-500 to-green-600 rounded-md  px-3 ' href="https://wa.me/918923196771?text=Hello%20I%20am%20interested%20in%20booking%20your%20homestay.
                     ">WhatsApp US</a>
                     {/* <a className='py-2 bg-gradient-to-r from-green-500 to-green-800 rounded-md  px-3  ' href="#">Create an Account</a> */}
                 </div>
@@ -40,16 +41,18 @@ const Navbar = () => {
             </div>
             {mobileDrawerOpen && (
                 <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
-                    <ul>
+                    <ul className='flex flex-col gap-10'>
                         {navItems.map((item,index)=>(
-                            <li key={index} className='py-4'>
-                         <Link className='cursor-pointer text-white' to={item.to} smooth={true} duration={500}>{item.label}</Link>
-                         </li>
+                            
+                         <Link key={index} className=' text-white relative text-[15px] cursor-pointer to={item.to} smooth={true} duration-500
+                         after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-green-500 
+                         after:transition-all after:duration-300 hover:after:w-full' to={item.to} smooth={true} duration={500}>{item.label}</Link>
+                       
                         ))}
                     </ul>
                     <div className="flex space-x-5 py-4">
-                    <a className='py-2  px-3 border rounded-md' href="#">Sign in</a>
-                    <a className='py-2 bg-gradient-to-r from-green-500 to-green-800 rounded-md  px-3  ' href="#">Create an Account</a>
+                    <a className='py-2 bg-gradient-to-r from-green-500 to-green-600 rounded-md  px-3 ' href="https://wa.me/918923196771?text=Hello%20I%20am%20interested%20in%20booking%20your%20homestay.
+                    ">WhatsApp US</a>
                     </div>
                 </div>
             )}

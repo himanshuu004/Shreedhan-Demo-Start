@@ -7,8 +7,7 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
-        className="absolute top-0 left-0 w-full h-full object-cover"
-      >
+        className="absolute top-0 left-0 w-full h-full object-cover">
         <source src={video3} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -29,15 +28,12 @@ const HeroSection = () => {
         Experience the warmth of a home away from home, where every guest becomes part of our family
         </p>
         <div className="flex justify-center mt-8">
-          <a
-            href="#"
-            className="bg-gradient-to-r from-green-500 to-green-800 py-3 px-4 mx-3 rounded-md"
-          >
-            Book Now
-          </a>
-          <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-            Direction
-          </a>
+        <a className='py-2 bg-gradient-to-r from-green-500 to-green-600 rounded-md  px-3 ' href="https://wa.me/918923196771?text=Hello%20I%20am%20interested%20in%20booking%20your%20homestay.
+                    ">Book Now</a>
+          <a className='py-2 ml-3 bg-gradient-to-r from-green-500 to-green-600 rounded-md px-3' href="mailto:shreedhanhomestay@gmail.com?subject=Homestay%20Booking%20Inquiry&body=Hello,%20I%20am%20interested%20in%20booking%20your%20homestay.">
+          Email Us
+              </a>
+
         </div>
       </div>
     </div>

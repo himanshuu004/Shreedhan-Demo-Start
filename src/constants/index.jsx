@@ -4,6 +4,8 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { BedDouble, Wifi, Utensils, ParkingCircle, ThermometerSnowflake, Tv, ShieldCheck, Mountain, Coffee } from "lucide-react";
+
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,8 +15,8 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Gallery", to: "Gallery" },
   { label: "Aminities", to: "Aminities" },
+  { label: "Gallery", to: "Gallery" },
   { label: "Rooms", to: "RoomsAndPrice" },
   { label: "Reviews", to: "Reviews" },
 ];
@@ -58,65 +60,106 @@ export const testimonials = [
   },
 ];
 
+
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
-    description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+    icon: <BedDouble />,
+    text: "Cozy & Comfortable Rooms",
+    description: "Spacious, well-furnished rooms with soft bedding and beautiful mountain views.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
-    description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+    icon: <Mountain />,
+    text: "Breathtaking Mountain Views",
+    description: "Wake up to stunning panoramic views of the Himalayas, a sight that soothes the soul and refreshes the mind.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
-    description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+    icon: <Mountain />,
+    text: "Scenic Outdoor Views",
+    description: "Breathtaking views of the Himalayas and peaceful nature all around.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
-    description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+    icon: <Coffee />,
+    text: "Complimentary Morning Tea",
+    description: "Start your day with a refreshing cup of tea or coffee, on the house!",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
-    description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+    icon: <Utensils />,
+    text: "Delicious Homemade Meals",
+    description: "Enjoy fresh, home-cooked local and Indian meals made with love.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+    icon: <ParkingCircle />,
+    text: "Free Parking",
+    description: "Hassle-free parking for your vehicles with 24/7 security.",
   },
+  {
+    icon: <ThermometerSnowflake />,
+    text: "Hot Water & Heating",
+    description: "24/7 hot water and room heaters to keep you warm on chilly nights.",
+  },
+  {
+    icon: <Tv />,
+    text: "Entertainment & TV",
+    description: "Relax with your favorite shows and entertainment in every room.",
+  },
+  {
+    icon: <ShieldCheck />,
+    text: "Safe & Secure Stay",
+    description: "Your safety is our priority with secure locks and CCTV surveillance.",
+  },
+ 
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Scenic Himalayan Views",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Enjoy breathtaking sunrise and sunset views right from your room, surrounded by the serene beauty of nature.",
   },
   {
-    title: "Review code without worry",
+    title: "Authentic Pahadi Cuisine",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Savor the flavors of traditional mountain food made with fresh, locally sourced ingredients for a truly authentic experience.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Cozy & Comfortable Stay",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Relax in warm, beautifully designed rooms that blend modern comfort with traditional mountain charm.",
   },
   {
-    title: "Share work in minutes",
+    title: "Bonfire & Stargazing",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Gather around a warm bonfire under the clear night sky and witness a mesmerizing view of countless stars.",
+  },
+  {
+    title: "Peaceful & Pollution-Free Environment",
+    description:
+      "Escape the hustle of city life and breathe in the fresh mountain air, free from noise and pollution.",
+  },
+  {
+    title: "Guided Nature Walks",
+    description:
+      "Explore scenic trails with guided nature walks, discovering hidden waterfalls and lush green forests.",
+  },
+  {
+    title: "Local Culture & Traditions",
+    description:
+      "Experience the rich heritage of the mountains by interacting with locals and learning about their traditions.",
+  },
+  {
+    title: "Adventure Activities",
+    description:
+      "For thrill-seekers, enjoy nearby activities like trekking, camping, and nature exploration.",
+  },
+  {
+    title: "Pet-Friendly Homestay",
+    description:
+      "Bring along your furry friends and let them enjoy the open space and fresh mountain air with you.",
+  },
+  {
+    title: "Eco-Friendly & Sustainable Living",
+    description:
+      "We follow sustainable practices to preserve nature, ensuring a responsible and eco-friendly stay.",
   },
 ];
 
