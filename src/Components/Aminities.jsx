@@ -3,10 +3,10 @@ import { features } from "../constants";
 
 const Aminities = () => {
   return (
-    <div id="Aminities" className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div id="Amenities" className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
     <div className="text-center">
       <span className=" text-black rounded-full  h-6 text-3xl font-medium px-2 py-1 uppercase">
-        Aminities
+      Amenities
       </span>
       <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-5 lg:mt-20 tracking-wide">
       Make yourself comfortable at{" "}

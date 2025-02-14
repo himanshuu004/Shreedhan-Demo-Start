@@ -1,27 +1,41 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
-import HeroSection from './Components/HeroSection'
-import Aminities from './Components/Aminities'
-import Gallery from './Components/Gallery'
-import RoomsAndPrice from './Components/RoomsAndPrice'
-import Reviews from './Components/Reviews'
-import Foooter from './Components/Foooter'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import HeroSection from "./Components/HeroSection";
+import Aminities from "./Components/Aminities";
+import Gallery from "./Components/Gallery";
+import Reviews from "./Components/Reviews";
+import Footer from "./Components/Footer";
+import HostInfo from "./Components/HostInfo";
+import Terms from "./Components/Terms"
+import Privacy from "./Components/Privacy";
+import Refund from "./Components/Refund";
 
+const Home = () => (
+  <>
+    <HeroSection />
+    <Aminities />
+    <Gallery />
+    <Reviews />
+    <HostInfo />
+  </>
+);
 
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <div className="max-w-6xl mx-auto pt-20 px-6">
-    <HeroSection/>
-    <Aminities/>
-    <Gallery/>
-    <RoomsAndPrice/>
-    <Reviews/>
-    <Foooter/>
-    </div>
-    </>
-  )
-}
+    <Router>
+      <Navbar />
+      <div className="max-w-6xl mx-auto pt-0 px-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/refund" element={<Refund />} />
+        </Routes>
+      </div>
+      <Footer />
+    </Router>
+  );
+};
 
-export default App
+export default App;

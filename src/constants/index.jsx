@@ -5,6 +5,11 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 import { BedDouble, Wifi, Utensils, ParkingCircle, ThermometerSnowflake, Tv, ShieldCheck, Mountain, Coffee } from "lucide-react";
+import Photo1 from "../assets/Photo1.jpg";
+import Photo2 from "../assets/Photo2.jpg";
+import Photo3 from "../assets/Photo3.jpg";
+import Photo4 from "../assets/Photo4.jpg";
+import Photo5 from "../assets/Photo5.png";
 
 
 import user1 from "../assets/profile-pictures/user1.jpg";
@@ -15,13 +20,14 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Aminities", to: "Aminities" },
+  { label: "Amenities", to: "Amenities" },
   { label: "Gallery", to: "Gallery" },
-  { label: "Rooms", to: "RoomsAndPrice" },
+  // { label: "Rooms", to: "RoomsAndPrice" },
   { label: "Reviews", to: "Reviews" },
+  { label: "Host Info", to: "Host" },
 ];
 
-export const testimonials = [
+export const reviews = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
@@ -115,52 +121,72 @@ export const checklistItems = [
     title: "Scenic Himalayan Views",
     description:
       "Enjoy breathtaking sunrise and sunset views right from your room, surrounded by the serene beauty of nature.",
+    image:Photo1,
   },
   {
     title: "Authentic Pahadi Cuisine",
     description:
       "Savor the flavors of traditional mountain food made with fresh, locally sourced ingredients for a truly authentic experience.",
+      image:Photo2,
   },
   {
     title: "Cozy & Comfortable Stay",
     description:
       "Relax in warm, beautifully designed rooms that blend modern comfort with traditional mountain charm.",
+      image:Photo3,
   },
   {
     title: "Bonfire & Stargazing",
     description:
       "Gather around a warm bonfire under the clear night sky and witness a mesmerizing view of countless stars.",
+      image:Photo4,
   },
   {
     title: "Peaceful & Pollution-Free Environment",
     description:
       "Escape the hustle of city life and breathe in the fresh mountain air, free from noise and pollution.",
+      image:Photo5,
   },
-  {
-    title: "Guided Nature Walks",
-    description:
-      "Explore scenic trails with guided nature walks, discovering hidden waterfalls and lush green forests.",
-  },
-  {
-    title: "Local Culture & Traditions",
-    description:
-      "Experience the rich heritage of the mountains by interacting with locals and learning about their traditions.",
-  },
-  {
-    title: "Adventure Activities",
-    description:
-      "For thrill-seekers, enjoy nearby activities like trekking, camping, and nature exploration.",
-  },
-  {
-    title: "Pet-Friendly Homestay",
-    description:
-      "Bring along your furry friends and let them enjoy the open space and fresh mountain air with you.",
-  },
-  {
-    title: "Eco-Friendly & Sustainable Living",
-    description:
-      "We follow sustainable practices to preserve nature, ensuring a responsible and eco-friendly stay.",
-  },
+  // {
+  //   title: "Guided Nature Walks",
+  //   description:
+  //     "Explore scenic trails with guided nature walks, discovering hidden waterfalls and lush green forests.",
+  // },
+  // {
+  //   title: "Local Culture & Traditions",
+  //   description:
+  //     "Experience the rich heritage of the mountains by interacting with locals and learning about their traditions.",
+  // },
+  // {
+  //   title: "Adventure Activities",
+  //   description:
+  //     "For thrill-seekers, enjoy nearby activities like trekking, camping, and nature exploration.",
+  // },
+  // {
+  //   title: "Pet-Friendly Homestay",
+  //   description:
+  //     "Bring along your furry friends and let them enjoy the open space and fresh mountain air with you.",
+  // },
+  // {
+  //   title: "Eco-Friendly & Sustainable Living",
+  //   description:
+  //     "We follow sustainable practices to preserve nature, ensuring a responsible and eco-friendly stay.",
+  // },
+  // {
+  //   title: "Local Culture & Traditions",
+  //   description:
+  //     "Experience the rich heritage of the mountains by interacting with locals and learning about their traditions.",
+  // },
+  // {
+  //   title: "Adventure Activities",
+  //   description:
+  //     "For thrill-seekers, enjoy nearby activities like trekking, camping, and nature exploration.",
+  // },
+  // {
+  //   title: "Pet-Friendly Homestay",
+  //   description:
+  //     "Bring along your furry friends and let them enjoy the open space and fresh mountain air with you.",
+  // },
 ];
 
 export const pricingOptions = [
