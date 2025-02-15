@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="mt-2 flex justify-center space-x-6">
           <a href="/terms" className="hover:text-green-600">Terms & Conditions</a>
           <a href="/privacy" className="hover:text-green-600">Privacy Policy</a>
-          <a href="/cancellation" className="hover:text-green-600">Refund Policy</a>
+          <a href="/refund" className="hover:text-green-600">Refund Policy</a>
         </div>
       </div>
     </footer>

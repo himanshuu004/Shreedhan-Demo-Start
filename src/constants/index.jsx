@@ -1,9 +1,9 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+// import { BotMessageSquare } from "lucide-react";
+// import { BatteryCharging } from "lucide-react";
+// import { Fingerprint } from "lucide-react";
+// import { ShieldHalf } from "lucide-react";
+// import { PlugZap } from "lucide-react";
+// import { GlobeLock } from "lucide-react";
 import { BedDouble, Wifi, Utensils, ParkingCircle, ThermometerSnowflake, Tv, ShieldCheck, Mountain, Coffee } from "lucide-react";
 import Photo1 from "../assets/Photo1.jpg";
 import Photo2 from "../assets/Photo2.jpg";
@@ -29,42 +29,43 @@ export const navItems = [
 
 export const reviews = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Amit Sharma",
+    city: "Delhi",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Staying at Shreedhan Homestay was an unforgettable experience. The hospitality, the peaceful surroundings, and the homely food made our trip truly special.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Neha Verma",
+    city: "Mumbai",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "A perfect place to relax and unwind! The rooms were clean, the staff was friendly, and the views were breathtaking. I will definitely visit again.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Rahul Khanna",
+    city: "Bangalore",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "A home away from home! The warmth and care we received were beyond expectations. The local food served was delicious, and the entire stay was peaceful.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Pooja Mehta",
+    city: "Jaipur",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "One of the best stays I have ever had! The ambiance, the scenic views, and the warm hospitality made our trip truly memorable.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Vikram Singh",
+    city: "Chandigarh",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "If you are looking for a quiet and refreshing getaway in the mountains, this is the place! Amazing hospitality and beautiful surroundings.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Anjali Das",
+    city: "Kolkata",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Loved every bit of our stay! The rooms were cozy, the hosts were very welcoming, and the bonfire nights were magical. Highly recommended!",
   },
 ];
+
 
 
 export const features = [
@@ -120,128 +121,66 @@ export const checklistItems = [
   {
     title: "Scenic Himalayan Views",
     description:
-      "Enjoy breathtaking sunrise and sunset views right from your room, surrounded by the serene beauty of nature.",
-    image:Photo1,
+      "Wake up to the most beautiful view of the mighty Himalayas! From your room, you can see the sunrise filling the sky with golden colors. In the evening, the sunset paints the mountains in shades of pink and orange. The peaceful environment, fresh air, and greenery all around will make you feel completely refreshed. You can sit on the balcony with a cup of tea, breathe in the fresh mountain air, and enjoy the stunning natural beauty. The view is so breathtaking that you will want to stay here forever!",
+    image: Photo1,
   },
   {
     title: "Authentic Pahadi Cuisine",
     description:
-      "Savor the flavors of traditional mountain food made with fresh, locally sourced ingredients for a truly authentic experience.",
-      image:Photo2,
+      "Taste the real flavors of the mountains with our special homemade Pahadi food! Every dish is prepared with fresh, locally grown ingredients that give it a unique and delicious taste. From warm, soft rotis made on a traditional chulha (stove) to fresh vegetables, dal, and desi ghee, every meal feels like home-cooked food. The special Pahadi rajma, bhatt ki churkani, and mandua roti will give you a taste of the local culture. The food is simple, healthy, and full of love, making every bite a memorable experience.",
+    image: Photo2,
   },
   {
     title: "Cozy & Comfortable Stay",
     description:
-      "Relax in warm, beautifully designed rooms that blend modern comfort with traditional mountain charm.",
-      image:Photo3,
+      "Feel at home in our warm and cozy rooms! Each room is beautifully designed to give you both modern comfort and a traditional mountain feel. The soft beds, warm blankets, and wooden interiors create a peaceful and relaxing atmosphere. Whether it is a cold winter night or a pleasant summer evening, the rooms remain comfortable in every season. You can enjoy a hot cup of tea while looking at the scenic views outside. After a long day of exploring, you will love coming back to such a comfortable space.",
+    image: Photo3,
   },
   {
     title: "Bonfire & Stargazing",
     description:
-      "Gather around a warm bonfire under the clear night sky and witness a mesmerizing view of countless stars.",
-      image:Photo4,
+      "Experience magical bonfire nights under a sky full of stars! Gather around a warm, crackling bonfire with your friends and family, share stories, sing songs, or simply enjoy the peaceful night. The cold mountain breeze makes the bonfire even more enjoyable. And when you look up, you will see a sky full of twinkling stars, something you can never experience in the city. The Milky Way, shooting stars, and the moon shining brightly make the night truly unforgettable. It is the perfect way to relax and enjoy nature at its best!",
+    image: Photo4,
   },
   {
     title: "Peaceful & Pollution-Free Environment",
     description:
-      "Escape the hustle of city life and breathe in the fresh mountain air, free from noise and pollution.",
-      image:Photo5,
-  },
-  // {
-  //   title: "Guided Nature Walks",
-  //   description:
-  //     "Explore scenic trails with guided nature walks, discovering hidden waterfalls and lush green forests.",
-  // },
-  // {
-  //   title: "Local Culture & Traditions",
-  //   description:
-  //     "Experience the rich heritage of the mountains by interacting with locals and learning about their traditions.",
-  // },
-  // {
-  //   title: "Adventure Activities",
-  //   description:
-  //     "For thrill-seekers, enjoy nearby activities like trekking, camping, and nature exploration.",
-  // },
-  // {
-  //   title: "Pet-Friendly Homestay",
-  //   description:
-  //     "Bring along your furry friends and let them enjoy the open space and fresh mountain air with you.",
-  // },
-  // {
-  //   title: "Eco-Friendly & Sustainable Living",
-  //   description:
-  //     "We follow sustainable practices to preserve nature, ensuring a responsible and eco-friendly stay.",
-  // },
-  // {
-  //   title: "Local Culture & Traditions",
-  //   description:
-  //     "Experience the rich heritage of the mountains by interacting with locals and learning about their traditions.",
-  // },
-  // {
-  //   title: "Adventure Activities",
-  //   description:
-  //     "For thrill-seekers, enjoy nearby activities like trekking, camping, and nature exploration.",
-  // },
-  // {
-  //   title: "Pet-Friendly Homestay",
-  //   description:
-  //     "Bring along your furry friends and let them enjoy the open space and fresh mountain air with you.",
-  // },
-];
-
-export const pricingOptions = [
-  {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+      "Leave behind the noise, dust, and stress of city life and enter a world of peace and freshness! Here, you will find only the sounds of birds, the cool mountain breeze, and the rustling of trees. The air is pure, fresh, and free from pollution. You can take long walks in nature, enjoy the beauty of green hills, and feel completely stress-free. This place is perfect for meditation, yoga, or simply sitting in silence and enjoying nature. It is a place where you can relax, refresh, and heal your body and mind.",
+    image: Photo5,
   },
 ];
 
-export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
-];
 
-export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
-];
+// export const pricingOptions = [
+//   {
+//     title: "Free",
+//     price: "$0",
+//     features: [
+//       "Private board sharing",
+//       "5 Gb Storage",
+//       "Web Analytics",
+//       "Private Mode",
+//     ],
+//   },
+//   {
+//     title: "Pro",
+//     price: "$10",
+//     features: [
+//       "Private board sharing",
+//       "10 Gb Storage",
+//       "Web Analytics (Advance)",
+//       "Private Mode",
+//     ],
+//   },
+//   {
+//     title: "Enterprise",
+//     price: "$200",
+//     features: [
+//       "Private board sharing",
+//       "Unlimited Storage",
+//       "High Performance Network",
+//       "Private Mode",
+//     ],
+//   },
+// ];
 
-export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
-];

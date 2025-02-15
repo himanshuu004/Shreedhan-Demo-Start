@@ -23,7 +23,7 @@ const HostInfo = () => {
           <p className="text-md text-gray-700 mt-2">
             Hikku says his homestay is special because it's cozy and well-maintained, with amazing views of the Himalayas. He treats his guests like family, offering a warm and personal touch. It's a peaceful place with all the comforts you need, and he always serves delicious, local food. And if you're lucky, he might just share some of the many stories he knows – perfect for entertainment or learning about the local culture!
           </p>
-          <p className="text-md mt-10 text-gray-700 mt-2 italic"> {/* Quote Styling */}
+          <p className="text-md mt-10 text-gray-700  italic"> {/* Quote Styling */}
             {hostQuote} {/* Display the quote */}
           </p>
           <p className="text-md text-gray-900 mt-2" >~Suresh Rawat</p>

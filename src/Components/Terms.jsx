@@ -12,7 +12,7 @@ const Terms = () => {
         <p className="mb-4">Check-in time is 12:00 PM, and check-out time is 11:00 AM.</p>
   
         <h2 className="text-xl font-semibold mt-4">3. House Rules</h2>
-        <p className="mb-4">No smoking inside the rooms. Pets are allowed only in designated areas.</p>
+        <p className="mb-4">Enjoy</p>
         
         <p className="mt-6 text-gray-600">Last updated: February 2025</p>
       </div>
