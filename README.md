@@ -26,4 +26,4 @@ We welcome contributions! If you have ideas to improve this project, follow thes
 1. **Fork the repository**  
 2. **Clone your forked repo**  
    ```bash
-   git clone https://github.com/your-username/homestay-landing.git
+   git clone [https://github.com/your-username/homestay-landing.git](https://github.com/himanshuu004/Shreedhan-Demo-Start.git)
