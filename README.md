@@ -11,7 +11,7 @@ Shreedhan Homestay is a **premium vacation retreat** nestled in the heart of nat
 ## 🔧 Tech Stack
 - **Frontend:** React.js, Tailwind CSS  
 - **Styling & Animations:** GSAP, Locomotive Scroll  
-- **Deployment:** Vercel  
+- **Deployment:** Netlify  
 
 ## ✨ Features
 ✅ Fully **responsive** and mobile-friendly  
