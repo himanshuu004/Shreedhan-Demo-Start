@@ -14,8 +14,8 @@ import Refund from "./Components/Refund";
 const Home = () => (
   <>
     <HeroSection />
-    <Aminities />
     <Gallery />
+    <Aminities />
     <Reviews />
     <HostInfo />
   </>

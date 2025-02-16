@@ -44,11 +44,13 @@ const HeroSection = () => {
           </a>
 
           <a
-            className="py-3 px-5 sm:px-6 rounded-md bg-green-600 text-white font-semibold shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg text-sm sm:text-base"
-            href="https://wa.me/918923196771?text=Hello%20I%20am%20interested%20in%20booking%20your%20homestay."
-          >
-            Query
+            className="py-3 px-5 sm:px-6 rounded-md bg-green-500 text-white font-semibold shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg text-sm sm:text-base"
+            href="mailto:your-shreedhanhomestay@gmail.com?subject=Inquiry%20About%20Homestay&body=Hello,%20I%20have%20a%20query%20regarding%20your%20homestay.">
+               Query
           </a>
+
+          
+        
         </div>
       </div>
     </div>
