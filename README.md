@@ -1,8 +1,29 @@
-# React + Vite
+# 🏡 Homestay Booking Website – Shreedhan Homestay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, responsive, and visually appealing** landing page for **Shreedhan Homestay**, designed to provide a seamless **booking experience** and enhance the online presence of the business.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 [[Check Out the Deployed Website](https://shredhanhomestay.netlify.app/)](#)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏡 About Shreedhan Homestay
+Shreedhan Homestay is a **premium vacation retreat** nestled in the heart of nature, offering a peaceful and rejuvenating experience. The website serves as the **primary booking platform**, making it easy for travelers to explore the homestay, contact the hosts, and make reservations effortlessly.
+
+## 🔧 Tech Stack
+- **Frontend:** React.js, Tailwind CSS  
+- **Styling & Animations:** GSAP, Locomotive Scroll  
+- **Deployment:** Vercel  
+
+## ✨ Features
+✅ Fully **responsive** and mobile-friendly  
+✅ **Modern UI/UX** with smooth scrolling animations  
+✅ **Fast performance** and optimized loading speeds  
+✅ Easy navigation for **seamless booking experience**  
+✅ **Contact & Query buttons** for instant communication  
+
+## 🛠️ Contributing
+We welcome contributions! If you have ideas to improve this project, follow these steps:  
+
+1. **Fork the repository**  
+2. **Clone your forked repo**  
+   ```bash
+   git clone https://github.com/your-username/homestay-landing.git
