@@ -29,37 +29,37 @@ export const navItems = [
 
 export const reviews = [
   {
-    user: "Amit Sharma",
+    user: "Divyanshi Rawat",
     city: "Delhi",
     image: user1,
     text: "Staying at Shreedhan Homestay was an unforgettable experience. The hospitality, the peaceful surroundings, and the homely food made our trip truly special.",
   },
   {
-    user: "Neha Verma",
+    user: "Shagun Gusain",
     city: "Mumbai",
     image: user2,
     text: "A perfect place to relax and unwind! The rooms were clean, the staff was friendly, and the views were breathtaking. I will definitely visit again.",
   },
   {
-    user: "Rahul Khanna",
+    user: "Manish Rana",
     city: "Bangalore",
     image: user3,
     text: "A home away from home! The warmth and care we received were beyond expectations. The local food served was delicious, and the entire stay was peaceful.",
   },
   {
-    user: "Pooja Mehta",
+    user: "Neha Dharamsaktu",
     city: "Jaipur",
     image: user4,
     text: "One of the best stays I have ever had! The ambiance, the scenic views, and the warm hospitality made our trip truly memorable.",
   },
   {
-    user: "Vikram Singh",
+    user: "Priyanka Rawat",
     city: "Chandigarh",
     image: user5,
     text: "If you are looking for a quiet and refreshing getaway in the mountains, this is the place! Amazing hospitality and beautiful surroundings.",
   },
   {
-    user: "Anjali Das",
+    user: "Sahil Dhapola",
     city: "Kolkata",
     image: user6,
     text: "Loved every bit of our stay! The rooms were cozy, the hosts were very welcoming, and the bonfire nights were magical. Highly recommended!",
