@@ -14,7 +14,7 @@ const Terms = () => {
         <h2 className="text-xl font-semibold mt-4">3. House Rules</h2>
         <p className="mb-4">Enjoy</p>
         
-        <p className="mt-6 text-gray-600">Last updated: February 2025</p>
+        <p className="mt-6 text-gray-600">Last updated: 18 February 2025</p>
       </div>
     );
   };
