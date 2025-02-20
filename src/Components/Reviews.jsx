@@ -20,7 +20,7 @@ const Testimonials = () => {
 
                 <div>
                   <h6 className="text-lg font-medium text-gray-800">{testimonial.user}</h6>
-                  <span className="text-sm text-gray-500">{testimonial.company}</span>
+                  <span className="text-sm text-gray-500">{testimonial.city}</span>
                 </div>
               </div>
             </div>

@@ -18,6 +18,9 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
+import user7 from "../assets/profile-pictures/user7.jpg";
+import user8 from "../assets/profile-pictures/user8.jpg";
+
 
 export const navItems = [
   { label: "Amenities", to: "Amenities" },
@@ -35,6 +38,12 @@ export const reviews = [
     text: "Staying at Shreedhan Homestay was an unforgettable experience. The hospitality, the peaceful surroundings, and the homely food made our trip truly special.",
   },
   {
+    user: "Laxita Jeshtha",
+    city: "Munsiyari",
+    image: user7,
+    text: "An amazing stay with beautiful mountain views! The hospitality was exceptional, and the peaceful ambiance made it a perfect getaway. Highly recommended!"
+  },
+  {
     user: "Shagun Gusain",
     city: "Mumbai",
     image: user2,
@@ -48,13 +57,13 @@ export const reviews = [
   },
   {
     user: "Neha Dharamsaktu",
-    city: "Jaipur",
+    city: "Noida",
     image: user4,
     text: "One of the best stays I have ever had! The ambiance, the scenic views, and the warm hospitality made our trip truly memorable.",
   },
   {
     user: "Priyanka Rawat",
-    city: "Chandigarh",
+    city: "Uttrakhand",
     image: user5,
     text: "If you are looking for a quiet and refreshing getaway in the mountains, this is the place! Amazing hospitality and beautiful surroundings.",
   },
@@ -64,6 +73,12 @@ export const reviews = [
     image: user6,
     text: "Loved every bit of our stay! The rooms were cozy, the hosts were very welcoming, and the bonfire nights were magical. Highly recommended!",
   },
+  {
+    user: "Praachi Bhagat",
+    city: "Ranchi",
+    image: user8,
+    text: "A truly memorable experience! The homestay had a cozy vibe, delicious local food, and stunning views. Would love to visit again!"
+},
 ];
 
 
