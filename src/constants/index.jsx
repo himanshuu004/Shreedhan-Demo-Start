@@ -38,7 +38,7 @@ export const reviews = [
     text: "Staying at Shreedhan Homestay was an unforgettable experience. The hospitality, the peaceful surroundings, and the homely food made our trip truly special.",
   },
   {
-    user: "Laxita Jeshtha",
+    user: "Laxita Jestha",
     city: "Munsiyari",
     image: user7,
     text: "An amazing stay with beautiful mountain views! The hospitality was exceptional, and the peaceful ambiance made it a perfect getaway. Highly recommended!"
